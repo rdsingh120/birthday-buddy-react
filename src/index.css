@@ -1,0 +1,69 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #fae8ff;
+}
+
+.card {
+  padding: 30px;
+  background-color: #ffff;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 6rem;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.bday {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.bday .img-container {
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+}
+
+.bday img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.05rem;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.age {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.btn {
+  width: 100%;
+  background-color: #d946ef;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 5px 0;
+  color: white;
+  text-transform: capitalize;
+  margin-top: 1.5rem;
+}
